@@ -3,19 +3,19 @@ import stackColors from "../../data/stackColors";
 
 const timeline = [
 	{
-		year: "2023",
+		year: "2024",
 		title: "42 School",
 		description:
 			"Peer-to-peer software engineering program. Built projects from a Unix shell to a 3D raycasting engine, entirely in C.",
 	},
 	{
-		year: "2024",
+		year: "2025",
 		title: "Full-stack projects",
 		description:
 			"Started building with React, TypeScript, and Next.js — shifted focus toward web development and interfaces.",
 	},
 	{
-		year: "2025",
+		year: "2026",
 		title: "Systems & infra",
 		description:
 			"Explored Docker-based deployments and multi-service stacks (Nginx, MySQL, WordPress) with Inception.",
