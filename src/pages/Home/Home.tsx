@@ -110,7 +110,7 @@ export default function Home() {
 							.splice(0, 3)} {/* Display only the first 3 projects */}
               {projects.length > 3 && (
                 <a
-                  href="projects"
+                  href="/Portfolio/projects"
                   className="group flex items-center gap-2 text-sm font-semibold text-gray-900 mt-4"
                 >
                   View more projects
