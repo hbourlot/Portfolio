@@ -71,7 +71,7 @@ export default function Home() {
 								<span className="whitespace-nowrap font-mono font-bold text-xs text-gray-900">
 									stack —
 								</span>{" "}
-								react / ts / next / C/C++ / Python
+								react / ts / nestjs / C/C++ / Python
 							</div>
 							<div className="flex items-center gap-1.5">
 								<span className="whitespace-nowrap font-mono font-bold text-xs text-gray-900">
