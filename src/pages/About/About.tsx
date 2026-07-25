@@ -57,8 +57,9 @@ export default function About() {
 							</span>
 						</h1>
 						<p className="mt-6 max-w-md text-gray-600">
-							I&apos;m Hugo. I like solving hard problems, whether it&apos;s low-level work in C or building modern apps with React and TypeScript. 
-							My goal is always the same: make things robust and simple to use.
+							I&apos;m Hugo. I like solving hard problems, whether it&apos;s low-level work in C or
+							building modern apps with React and TypeScript. My goal is always the same: make things
+							robust and simple to use.
 						</p>
 					</div>
 
@@ -77,7 +78,7 @@ export default function About() {
 					</div>
 
 					<div className="flex flex-col">
-						{timeline.map((item, i) => (
+						{timeline.map((item) => (
 							<div
 								key={item.title}
 								className="flex gap-6 border-b border-gray-200 py-6 first:pt-0 last:border-none">
