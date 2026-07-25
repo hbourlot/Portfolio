@@ -2,6 +2,7 @@ import profileImage from "../../assets/profile.jpeg";
 import { ProjectCard } from "../../components";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import projects from "../../data/projects";
+import { Link } from "react-router-dom";
 
 export default function Home() {
 	return (
@@ -109,14 +110,15 @@ export default function Home() {
 							))
 							.splice(0, 3)} {/* Display only the first 3 projects */}
               {projects.length > 3 && (
-                <a
-                  href="/Portfolio/projects"
+                <Link
+                  to="/projects"
                   className="group flex items-center gap-2 text-sm font-semibold text-gray-900 mt-4"
                 >
                   View more projects
                   <span className="transition-transform group-hover:translate-x-1">→</span>
-                </a>
+                </Link>
               )}
+			  
 					</div>
 				</div>
 			</section>
