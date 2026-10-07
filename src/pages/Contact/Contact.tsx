@@ -7,9 +7,9 @@ export default function Contact() {
 				<span className="font-mono text-xs text-gray-400">/ 01</span>
 
 				<h1 className="mt-3 max-w-lg text-5xl font-bold leading-tight tracking-tight text-gray-900 sm:text-6xl">
-					Got something to build?{" "}
+					Want to work{" "}
 					<span className="relative inline-block">
-						Let&apos;s talk.
+						together?
 						<svg
 							className="absolute -bottom-2 left-0 w-full"
 							height="12"
@@ -27,12 +27,12 @@ export default function Contact() {
 				</h1>
 
 				<p className="mt-6 max-w-md text-lg leading-relaxed text-gray-600">
-					Open to freelance work, collaborations, or just a conversation about a project you&apos;re thinking
-					through. I usually reply within a day or two.
+					I&apos;m looking for my next opportunity. If you think I&apos;d fit your team, or you just want to
+					ask about one of my projects, write to me. I usually reply within a day or two.
 				</p>
 
 				<a
-					href="mailto:your@email.com"
+					href="mailto:arthur.hugo962@gmail.com"
 					className="group mt-10 flex items-center gap-2 border-b-2 border-gray-900 pb-1 text-xl font-semibold text-gray-900">
 					arthur.hugo962@gmail.com
 					<span className="transition-transform group-hover:translate-x-1">→</span>
@@ -51,7 +51,7 @@ export default function Contact() {
 							<span className="transition-transform group-hover:translate-x-1">→</span>
 						</a>
 						<a
-							href="https://linkedin.com/in/yourname"
+							href="https://linkedin.com/in/hbourlot"
 							target="_blank"
 							rel="noopener noreferrer"
 							className="group flex items-center gap-2 text-sm font-semibold text-gray-600 transition-colors hover:text-gray-900">

@@ -20,13 +20,25 @@ const timeline = [
 		description:
 			"Explored Docker-based deployments and multi-service stacks (Nginx, MySQL, WordPress) with Inception.",
 	},
+	{
+		year: "2026",
+		title: "Graduated from 42",
+		description:
+			"Completed the common core, finishing with Transcendence, a full-stack web app built as a team.",
+	},
+	{
+		year: "Now",
+		title: "AI, Data & Algorithms specialization (in progress)",
+		description:
+			"Starting with 42's Python for Data Science track: NumPy, pandas and Matplotlib, then data engineering on PostgreSQL with Docker and SQLAlchemy.",
+	},
 ];
 
 const skills = [
 	{ category: "Languages", items: ["TypeScript", "JavaScript", "C", "C++", "Python"] },
 	{ category: "Frontend", items: ["React", "Next.js", "Tailwind CSS"] },
 	{ category: "Backend", items: ["Node.js", "NestJS"] },
-	{ category: "Infra", items: ["Docker", "Nginx", "MySQL"] },
+	{ category: "Infra", items: ["Docker", "Nginx", "MySQL", "PostgreSQL"] },
 ];
 
 export default function About() {
@@ -57,9 +69,9 @@ export default function About() {
 							</span>
 						</h1>
 						<p className="mt-6 max-w-md text-gray-600">
-							I&apos;m Hugo. I like solving hard problems, whether it&apos;s low-level work in C or
-							building modern apps with React and TypeScript. My goal is always the same: make things
-							robust and simple to use.
+							I&apos;m Hugo. I learned to program in C at 42, built web apps with React and TypeScript,
+							and I&apos;m now working through 42&apos;s AI, data and algorithms specialization. I like software that
+							doesn&apos;t break :)
 						</p>
 					</div>
 
@@ -82,7 +94,7 @@ export default function About() {
 							<div
 								key={item.title}
 								className="flex gap-6 border-b border-gray-200 py-6 first:pt-0 last:border-none">
-								<span className="font-mono text-sm text-gray-400">{item.year}</span>
+								<span className="w-10 shrink-0 font-mono text-sm text-gray-400">{item.year}</span>
 								<div>
 									<h3 className="font-semibold text-gray-900">{item.title}</h3>
 									<p className="mt-1 max-w-lg text-sm leading-relaxed text-gray-600">

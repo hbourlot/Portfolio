@@ -21,6 +21,13 @@ const projects: ProjectType[] = [
 		href: "https://github.com/hbourlot/42-Cub3d",
 	},
 	{
+		title: "42 Webserv",
+		description:
+			"An HTTP server written from scratch in C++98, built as a team. Handles many clients at once without blocking, runs CGI scripts, and is set up through an Nginx-style config file.",
+		stack: ["C++"],
+		href: "https://github.com/hbourlot/42-WebServer",
+	},
+	{
 		title: "Inception",
 		description:
 			"A Docker-based project that sets up a full web stack, including Nginx, MySQL, WordPress, and phpMyAdmin, all orchestrated with Docker Compose.",
@@ -40,6 +47,13 @@ const projects: ProjectType[] = [
 			"A 42 project that implements the dining philosophers problem using C and pthreads.",
 		stack: ["C", "Pthreads"],
 		href: "https://github.com/hbourlot/42-Philosophers",
+	},
+	{
+		title: "42 Python for Data Science",
+		description:
+			"Work in progress: 42's Python for Data Science piscines, from Python fundamentals with NumPy, pandas and Matplotlib to data engineering on PostgreSQL with Docker and SQLAlchemy.",
+		stack: ["Python", "NumPy", "pandas", "PostgreSQL", "Docker"],
+		href: "https://github.com/hbourlot/42-PythonForDataScience",
 	},
 	{
 		title: "Flappy Bird",

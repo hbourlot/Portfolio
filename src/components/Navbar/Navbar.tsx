@@ -18,7 +18,7 @@ export const Navbar = () => {
 				<Link
 					to="/"
 					className="text-lg font-bold tracking-tight text-gray-900">
-					Portfolio
+					Hugo Bourlot
 				</Link>
 
 				{/* Desktop links */}

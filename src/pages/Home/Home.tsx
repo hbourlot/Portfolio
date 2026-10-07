@@ -33,7 +33,7 @@ export default function Home() {
 						</h1>
 
 						<p className="mt-8 text-lg leading-relaxed text-gray-600">
-							I’m a 42 School developer who enjoys turning complex ideas into reliable, useful software.
+							42 School graduate, now specializing in AI, data and algorithms.
 						</p>
 
 						<div className="mt-10 flex items-center gap-6 border-t border-gray-300 pt-6">
@@ -109,17 +109,16 @@ export default function Home() {
 								/>
 							))
 							.splice(0, 3)} {/* Display only the first 3 projects */}
-              {projects.length > 3 && (
-                <Link
-                  to="/projects"
-                  className="group flex items-center gap-2 text-sm font-semibold text-gray-900 mt-4"
-                >
-                  View more projects
-                  <span className="transition-transform group-hover:translate-x-1">→</span>
-                </Link>
-              )}
-			  
 					</div>
+
+					{projects.length > 3 && (
+						<Link
+							to="/projects"
+							className="group mt-8 flex items-center gap-2 self-start text-sm font-semibold text-gray-900">
+							View more projects
+							<span className="transition-transform group-hover:translate-x-1">→</span>
+						</Link>
+					)}
 				</div>
 			</section>
 
@@ -130,11 +129,11 @@ export default function Home() {
 				<div className="mx-auto flex w-full max-w-4xl flex-col items-start">
 					<span className="font-mono text-xs text-gray-400">/ 02</span>
 					<h2 className="mt-3 max-w-lg text-4xl font-bold leading-tight tracking-tight text-gray-900 sm:text-5xl">
-						Got something to build? Let&apos;s talk.
+						Want to work together?
 					</h2>
 					<p className="mt-4 max-w-md text-gray-600">
-						Open to freelance work, collaborations, or just a conversation about a project you&apos;re
-						thinking through.
+						I&apos;m looking for my next opportunity. If you think I&apos;d fit your team, or you just
+						want to ask about one of my projects, write to me.
 					</p>
 
 					<a

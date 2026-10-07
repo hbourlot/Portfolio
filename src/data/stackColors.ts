@@ -5,6 +5,8 @@ const stackColors: Record<string, string> = {
 	C: "border-indigo-300 bg-indigo-50 text-indigo-700",
 	"C++": "border-purple-300 bg-purple-50 text-purple-700",
 	Python: "border-amber-300 bg-amber-50 text-amber-700",
+	NumPy: "border-cyan-300 bg-cyan-50 text-cyan-700",
+	pandas: "border-indigo-300 bg-indigo-50 text-indigo-700",
 	Docker: "border-blue-300 bg-blue-50 text-blue-700",
 	Nginx: "border-gray-300 bg-gray-50 text-gray-700",
 	MySQL: "border-purple-300 bg-purple-50 text-purple-700",
