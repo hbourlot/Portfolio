@@ -65,14 +65,14 @@ export default function Home() {
 						<div className="absolute -bottom-8 -left-10 rotate-3 border border-gray-300 bg-white px-4 py-2 font-mono text-xs text-gray-500 shadow-sm">
 							<div className="mb-1 border-b border-gray-200 pb-1 font-semibold text-gray-700">STATUS</div>
 							<div>
-								<span className="font-mono font-bold text-xs text-gray-900">role —</span> Web developer
-								/ backend
+								<span className="font-mono font-bold text-xs text-gray-900">role —</span> Software
+								developer / backend, Data
 							</div>
 							<div className="max-w-[30ch]">
 								<span className="whitespace-nowrap font-mono font-bold text-xs text-gray-900">
 									stack —
 								</span>{" "}
-								react / ts / nestjs / C/C++ / Python
+								Python / SQL / postgres / ts / C/C++
 							</div>
 							<div className="flex items-center gap-1.5">
 								<span className="whitespace-nowrap font-mono font-bold text-xs text-gray-900">
@@ -108,7 +108,8 @@ export default function Home() {
 									index={i}
 								/>
 							))
-							.splice(0, 3)} {/* Display only the first 3 projects */}
+							.splice(0, 3)}{" "}
+						{/* Display only the first 3 projects */}
 					</div>
 
 					{projects.length > 3 && (
@@ -132,8 +133,8 @@ export default function Home() {
 						Want to work together?
 					</h2>
 					<p className="mt-4 max-w-md text-gray-600">
-						I&apos;m looking for my next opportunity. If you think I&apos;d fit your team, or you just
-						want to ask about one of my projects, write to me.
+						I&apos;m looking for my next opportunity. If you think I&apos;d fit your team, or you just want
+						to ask about one of my projects, write to me.
 					</p>
 
 					<a
