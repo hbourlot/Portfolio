@@ -16,6 +16,8 @@ const stackColors: Record<string, string> = {
 	Pthreads: "border-red-300 bg-red-50 text-red-700",
 	NestJS: "border-red-300 bg-red-50 text-red-700",
 	PostgreSQL: "border-amber-300 bg-amber-50 text-amber-700",
+	SQL: "border-sky-300 bg-sky-50 text-sky-700",
+	SQLAlchemy: "border-red-300 bg-red-50 text-red-700",
 	WebSocket: "border-purple-300 bg-purple-50 text-purple-700",
 };
 

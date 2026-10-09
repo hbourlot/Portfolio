@@ -23,8 +23,7 @@ const timeline = [
 	{
 		year: "2026",
 		title: "Graduated from 42",
-		description:
-			"Completed the common core, finishing with Transcendence, a full-stack web app built as a team.",
+		description: "Completed the common core, finishing with Transcendence, a full-stack web app built as a team.",
 	},
 	{
 		year: "Now",
@@ -36,9 +35,10 @@ const timeline = [
 
 const skills = [
 	{ category: "Languages", items: ["TypeScript", "JavaScript", "C", "C++", "Python"] },
+	{ category: "Data", items: ["SQL", "PostgreSQL", "pandas", "NumPy", "SQLAlchemy"] },
 	{ category: "Frontend", items: ["React", "Next.js", "Tailwind CSS"] },
 	{ category: "Backend", items: ["Node.js", "NestJS"] },
-	{ category: "Infra", items: ["Docker", "Nginx", "MySQL", "PostgreSQL"] },
+	{ category: "Infra", items: ["Docker", "Nginx", "MySQL"] },
 ];
 
 export default function About() {
@@ -70,8 +70,8 @@ export default function About() {
 						</h1>
 						<p className="mt-6 max-w-md text-gray-600">
 							I&apos;m Hugo. I learned to program in C at 42, built web apps with React and TypeScript,
-							and I&apos;m now working through 42&apos;s AI, data and algorithms specialization. I like software that
-							doesn&apos;t break :)
+							and I&apos;m now working through 42&apos;s AI, data and algorithms specialization. I like
+							software that doesn&apos;t break :)
 						</p>
 					</div>
 
