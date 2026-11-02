@@ -130,7 +130,7 @@ export default function Home() {
 				<div className="mx-auto flex w-full max-w-4xl flex-col items-start">
 					<span className="font-mono text-xs text-gray-400">/ 02</span>
 					<h2 className="mt-3 max-w-lg text-4xl font-bold leading-tight tracking-tight text-gray-900 sm:text-5xl">
-						Want to work together?
+						Shall we talk?
 					</h2>
 					<p className="mt-4 max-w-md text-gray-600">
 						I&apos;m looking for my next opportunity. If you think I&apos;d fit your team, or you just want
