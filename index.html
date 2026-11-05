@@ -4,9 +4,16 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/Portfolio/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hugo Bourlot — Portfolio</title>
-    <script type="module" crossorigin src="/Portfolio/assets/index-ElzFWsUQ.js"></script>
-    <link rel="stylesheet" crossorigin href="/Portfolio/assets/index-Uu1BmCLt.css">
+    <title>portfolio</title>
+    <script>
+      // Set the theme before the page draws, so dark mode doesn't flash white.
+      var theme;
+      try { theme = localStorage.getItem("theme"); } catch (e) {}
+      document.documentElement.dataset.theme =
+        theme || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+    </script>
+    <script type="module" crossorigin src="/Portfolio/assets/index-87cnWPyv.js"></script>
+    <link rel="stylesheet" crossorigin href="/Portfolio/assets/index-CiF8dYzi.css">
   </head>
   <body>
     <div id="root"></div>
