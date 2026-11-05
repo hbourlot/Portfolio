@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@theme {
+	--color-surface-1: #f5f4ef;
+	--color-surface-2: #ffffff;
+	--color-border: rgba(0, 0, 0, 0.1);
+	--color-border-strong: rgba(0, 0, 0, 0.18);
+	--color-text-primary: #1f1e1c;
+	--color-text-secondary: #5f5e5a;
+	--color-text-muted: #888780;
+	--color-text-warning: #854f0b;
+	--color-text-success: #3b6d11;
+	--color-bg-warning: #faeeda;
+	--color-fill-warning: #ef9f27;
+	--color-on-warning: #1f1e1c;
+	--color-fill-ghost-selected: rgba(0, 0, 0, 0.07);
+	--radius-base: 8px;
+	--font-voice: Georgia, "Times New Roman", serif;
+}
+
+/* Dark theme: same token names, so every Tailwind class (bg-surface-1, text-text-primary...) switches automatically. */
+:root[data-theme="dark"] {
+	color-scheme: dark;
+	--color-surface-1: #1f1e1d;
+	--color-surface-2: #262624;
+	--color-border: rgba(255, 255, 255, 0.1);
+	--color-border-strong: rgba(255, 255, 255, 0.18);
+	--color-text-primary: #f0eee6;
+	--color-text-secondary: #b7b5a9;
+	--color-text-muted: #8a887f;
+	--color-text-warning: #f0b35a;
+	--color-text-success: #8fc46a;
+	--color-bg-warning: #3d2e14;
+	--color-fill-ghost-selected: rgba(255, 255, 255, 0.08);
+}
+
+body {
+	background-color: var(--color-surface-2);
+	color: var(--color-text-primary);
+}

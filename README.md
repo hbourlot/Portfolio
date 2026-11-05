@@ -1,66 +1,72 @@
 # Portfolio
 
-Basic personal portfolio website built with React, TypeScript, and Vite.
+My personal portfolio, built as a chat. Visitors ask questions in English or Portuguese and get answers I wrote myself, so it never makes things up.
+
+Live: https://hbourlot.github.io/Portfolio/
 
 ## Tech Stack
 
-- React
-- TypeScript
-- Vite
+- React, TypeScript, Vite
 - React Router
 - Tailwind CSS
+- Python + sentence-transformers - still implementing
+
+## How the chat works
+
+`src/data/qa.json` holds every answer, each with 5 phrasings per language.
+
+**Now:** `src/chat/findAnswer.ts` matches the visitor's question against those phrasings exactly (ignoring case and punctuation), or shows a fallback.
+
+**In progress: semantic search**
+
+1. `python/build_index.py` encodes every phrasing with `paraphrase-multilingual-MiniLM-L12-v2` and saves the vectors to `src/assets/embeddings.json`.
+2. In the browser, the same model will encode the visitor's question, compare it against every stored vector (cosine similarity), and show the best answer, or the fallback if nothing scores above the threshold.
+
+`python/evaluate.py` checks the matching against 45 unseen questions, including 10 off-topic ones, and prints accuracy at several thresholds.
 
 ## Getting Started
 
-### 1. Install dependencies
-
 ```bash
 npm install
-```
-
-### 2. Run development server
-
-```bash
 npm run dev
 ```
 
-### 3. Build for production
+Rebuild the search index after editing `qa.json`:
 
 ```bash
-npm run build
+pip install sentence-transformers
+python3 python/build_index.py
+python3 python/evaluate.py
 ```
 
-### 4. Preview production build
-
-```bash
-npm run preview
-```
-
-## Available Scripts
+## Scripts
 
 - `npm run dev` - start local development server
-- `npm run build` - compile TypeScript and build app
+- `npm run build` - type-check and build to `dist/`
 - `npm run lint` - run ESLint
-- `npm run preview` - preview production build locally
-- `npm run deploy` - deploy `dist` folder to GitHub Pages
+- `npm run preview` - preview the production build locally
+- `npm run deploy` - build and publish `dist/` to GitHub Pages
 
 ## Project Structure
 
 ```text
+python/          build_index.py, evaluate.py (local only)
 src/
-  components/
-  data/
-  pages/
-  styles/
-  types/
+  assets/        avatar, embeddings.json
+  chat/          findAnswer.ts (question matching)
+  components/    Sidebar, ChatThread, Message, ProjectCard, ...
+  context/
+  data/          qa.json, projects
+  i18n/          English / Portuguese
+  pages/         Home, About, Projects, Journey, Contact, Chat
 ```
 
 ## Deployment
 
-This project is configured to deploy to GitHub Pages using:
+Deployed to GitHub Pages from the `gh-pages` branch:
 
 ```bash
 npm run deploy
 ```
 
-Make sure the repository settings are configured for GitHub Pages.
+The Vite `base` is set to `/Portfolio/` to match the repository name.

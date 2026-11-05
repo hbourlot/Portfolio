@@ -1,0 +1,738 @@
+{
+	"intro": {
+		"question": {
+			"en": "Who are you?",
+			"pt": "Quem é você?"
+		},
+		"answer": {
+			"en": "I'm Hugo Bourlot, a software developer based in Lisbon. I graduated from 42 Lisboa in August 2026, after two and a half years of building everything from scratch: a Unix shell and a raycasting engine in C, an HTTP server in C++, and a multiplayer chess platform with React and NestJS.\n\nNow I'm doing 42's AI, Data and Algorithms specialization, working with Python, pandas and PostgreSQL.\n\nAsk me anything below, or pick a page on the left.",
+			"pt": "Eu sou o Hugo Bourlot, desenvolvedor de software em Lisboa. Me formei na 42 Lisboa em agosto de 2026, depois de dois anos e meio construindo tudo do zero: um shell Unix e um motor de raycasting em C, um servidor HTTP em C++ e uma plataforma de xadrez multiplayer com React e NestJS.\n\nAgora estou fazendo a especialização em IA, Dados e Algoritmos da 42, trabalhando com Python, pandas e PostgreSQL.\n\nPergunte o que quiser aqui embaixo, ou escolha uma página à esquerda."
+		}
+	},
+	"journey": {
+		"question": {
+			"en": "How did you get into tech?",
+			"pt": "Como você entrou na área de tecnologia?"
+		},
+		"answer": {
+			"en": "I didn't start in tech. I worked as a cook, and since 2022 I've worked in Lisbon as a food courier. Both jobs taught me to stay organized and reliable under pressure.\n\nIn April 2024 I joined 42 Lisboa, a coding school with no teachers and no classes, where you learn by building projects and reviewing each other's code. I spent two and a half years there, mostly in C and C++, and graduated in August 2026.\n\nRight after, I started 42's AI, Data and Algorithms specialization, where I'm working with Python, pandas and PostgreSQL. That's where I am now.",
+			"pt": "Eu não comecei na tecnologia. Trabalhei como cozinheiro, e desde 2022 trabalho em Lisboa como entregador. Os dois trabalhos me ensinaram a ser organizado e confiável sob pressão.\n\nEm abril de 2024 entrei na 42 Lisboa, uma escola de programação sem professores e sem aulas, onde você aprende construindo projetos e revisando o código dos colegas. Passei dois anos e meio lá, quase sempre em C e C++, e me formei em agosto de 2026.\n\nLogo depois comecei a especialização em IA, Dados e Algoritmos da 42, onde estou trabalhando com Python, pandas e PostgreSQL. É onde estou agora."
+		}
+	},
+	"projects": {
+		"question": {
+			"en": "What have you built?",
+			"pt": "O que você já construiu?"
+		},
+		"answer": {
+			"en": "Here are the ones I'm proudest of. Most were built at 42, from scratch, and many of them as a team. Ask me about any of them below.",
+			"pt": "Aqui estão os que mais me orgulho. A maioria foi feita na 42, do zero, e muitos em equipe. Pergunte sobre qualquer um aqui embaixo."
+		}
+	},
+	"contact": {
+		"question": {
+			"en": "How can I contact you?",
+			"pt": "Como posso falar com você?"
+		},
+		"answer": {
+			"en": "I'm open to work, especially roles involving backend, data or anything close to AI.\n\nEmail is the best way to reach me: arthur.hugo962@gmail.com. You can also find me on GitHub (hbourlot) and LinkedIn (hbourlot), and download my CV with the button at the top of the page.",
+			"pt": "Estou aberto a oportunidades, principalmente em backend, dados ou algo perto de IA.\n\nO melhor jeito de falar comigo é por email: arthur.hugo962@gmail.com. Você também me encontra no GitHub (hbourlot) e no LinkedIn (hbourlot), e pode baixar meu currículo pelo botão no topo da página."
+		}
+	},
+	"fallback": {
+		"en": "I don't have an answer for that one yet. You can email me at arthur.hugo962@gmail.com, or try one of the questions below.",
+		"pt": "Ainda não tenho resposta para essa. Você pode me mandar um email em arthur.hugo962@gmail.com, ou tentar uma das perguntas abaixo."
+	},
+	"qa": [
+		{
+			"id": "intro",
+			"questions": {
+				"en": [
+					"Who are you?",
+					"Tell me about yourself",
+					"Introduce yourself",
+					"Who is Hugo?",
+					"What's your name?"
+				],
+				"pt": [
+					"Quem é você?",
+					"Me fala de você",
+					"Se apresenta",
+					"Quem é o Hugo?",
+					"Qual é o seu nome?"
+				]
+			},
+			"answer": {
+				"en": "I'm Hugo Bourlot, a software developer based in Lisbon. I graduated from 42 Lisboa in August 2026, after two and a half years of building everything from scratch: a Unix shell and a raycasting engine in C, an HTTP server in C++, and a multiplayer chess platform with React and NestJS.\n\nNow I'm doing 42's AI, Data and Algorithms specialization, working with Python, pandas and PostgreSQL.\n\nAsk me anything below, or pick a page on the left.",
+				"pt": "Eu sou o Hugo Bourlot, desenvolvedor de software em Lisboa. Me formei na 42 Lisboa em agosto de 2026, depois de dois anos e meio construindo tudo do zero: um shell Unix e um motor de raycasting em C, um servidor HTTP em C++ e uma plataforma de xadrez multiplayer com React e NestJS.\n\nAgora estou fazendo a especialização em IA, Dados e Algoritmos da 42, trabalhando com Python, pandas e PostgreSQL.\n\nPergunte o que quiser aqui embaixo, ou escolha uma página à esquerda."
+			}
+		},
+		{
+			"id": "journey",
+			"questions": {
+				"en": [
+					"How did you get into tech?",
+					"Why did you start coding?",
+					"What's your story?",
+					"How did you become a developer?",
+					"Why did you switch careers?"
+				],
+				"pt": [
+					"Como você entrou na área de tecnologia?",
+					"Por que você começou a programar?",
+					"Qual é a sua história?",
+					"Como você virou desenvolvedor?",
+					"Por que você mudou de carreira?"
+				]
+			},
+			"answer": {
+				"en": "I didn't start in tech. I worked as a cook, and since 2022 I've worked in Lisbon as a food courier. Both jobs taught me to stay organized and reliable under pressure.\n\nIn April 2024 I joined 42 Lisboa, a coding school with no teachers and no classes, where you learn by building projects and reviewing each other's code. I spent two and a half years there, mostly in C and C++, and graduated in August 2026.\n\nRight after, I started 42's AI, Data and Algorithms specialization, where I'm working with Python, pandas and PostgreSQL. That's where I am now.",
+				"pt": "Eu não comecei na tecnologia. Trabalhei como cozinheiro, e desde 2022 trabalho em Lisboa como entregador. Os dois trabalhos me ensinaram a ser organizado e confiável sob pressão.\n\nEm abril de 2024 entrei na 42 Lisboa, uma escola de programação sem professores e sem aulas, onde você aprende construindo projetos e revisando o código dos colegas. Passei dois anos e meio lá, quase sempre em C e C++, e me formei em agosto de 2026.\n\nLogo depois comecei a especialização em IA, Dados e Algoritmos da 42, onde estou trabalhando com Python, pandas e PostgreSQL. É onde estou agora."
+			}
+		},
+		{
+			"id": "hobbies",
+			"questions": {
+				"en": [
+					"What do you do outside of coding?",
+					"What are your hobbies?",
+					"What do you do in your free time?",
+					"Do you play sports?",
+					"Do you like to read?"
+				],
+				"pt": [
+					"O que você faz fora da programação?",
+					"Quais são seus hobbies?",
+					"O que você faz no tempo livre?",
+					"Você pratica esporte?",
+					"Você gosta de ler?"
+				]
+			},
+			"answer": {
+				"en": "Mostly sports: running, working out, Muay Thai and CrossFit. When I'm not training, I like to read.",
+				"pt": "Principalmente esporte: corrida, academia, Muay Thai e CrossFit. Quando não estou treinando, gosto de ler."
+			}
+		},
+		{
+			"id": "location",
+			"questions": {
+				"en": [
+					"Where are you based?",
+					"Where do you live?",
+					"Where are you from?",
+					"Which city are you in?",
+					"What country are you in?"
+				],
+				"pt": [
+					"Onde você mora?",
+					"De onde você é?",
+					"Você está em que cidade?",
+					"Onde você vive?",
+					"Em que país você está?"
+				]
+			},
+			"answer": {
+				"en": "I live in Lisbon, Portugal. Portuguese is my native language and I speak English at C1 level.",
+				"pt": "Moro em Lisboa, Portugal. Português é minha língua nativa e falo inglês em nível C1."
+			}
+		},
+		{
+			"id": "languages",
+			"questions": {
+				"en": [
+					"What languages do you speak?",
+					"Do you speak English?",
+					"Do you speak Portuguese?",
+					"What's your English level?",
+					"Is English a problem for you?"
+				],
+				"pt": [
+					"Quais idiomas você fala?",
+					"Você fala inglês?",
+					"Você fala português?",
+					"Qual é o seu nível de inglês?",
+					"O inglês é um problema pra você?"
+				]
+			},
+			"answer": {
+				"en": "Portuguese is my native language, and I speak English at C1 level, so I'm comfortable working in either.",
+				"pt": "Português é minha língua nativa, e eu falo inglês em nível C1, então trabalho bem em qualquer um dos dois."
+			}
+		},
+		{
+			"id": "what-is-42",
+			"questions": {
+				"en": [
+					"What's 42?",
+					"What is 42 School?",
+					"How does 42 work?",
+					"Tell me about 42",
+					"What kind of school is 42?"
+				],
+				"pt": [
+					"O que é a 42?",
+					"O que é a 42 School?",
+					"Como funciona a 42?",
+					"Me fala da 42",
+					"Que tipo de escola é a 42?"
+				]
+			},
+			"answer": {
+				"en": "42 is a coding school with no teachers and no classes. You learn by building projects, then other students review your code before you can move on. It's free, project-based, and most of it is in C and C++, so you learn how computers work from the ground up.",
+				"pt": "A 42 é uma escola de programação sem professores e sem aulas. Você aprende construindo projetos, e outros alunos avaliam seu código antes de você seguir em frente. É gratuita, baseada em projetos e quase toda em C e C++, então você aprende como o computador funciona desde a base."
+			}
+		},
+		{
+			"id": "education",
+			"questions": {
+				"en": [
+					"What did you study?",
+					"Where did you learn to code?",
+					"When did you graduate?",
+					"What's your education?",
+					"Do you have a degree?"
+				],
+				"pt": [
+					"O que você estudou?",
+					"Onde você aprendeu a programar?",
+					"Quando você se formou?",
+					"Qual é a sua formação?",
+					"Você tem diploma?"
+				]
+			},
+			"answer": {
+				"en": "I studied software development at 42 Lisboa from April 2024 and graduated in August 2026. The curriculum covers C/C++, operating systems, networking, algorithms and software engineering. Right after, I started the AI, Data and Algorithms specialization.",
+				"pt": "Estudei desenvolvimento de software na 42 Lisboa a partir de abril de 2024 e me formei em agosto de 2026. O currículo cobre C/C++, sistemas operacionais, redes, algoritmos e engenharia de software. Logo depois comecei a especialização em IA, Dados e Algoritmos."
+			}
+		},
+		{
+			"id": "specialization",
+			"questions": {
+				"en": [
+					"What are you learning now?",
+					"What's your specialization?",
+					"What are you doing right now?",
+					"What are you studying now?",
+					"What's next for you?"
+				],
+				"pt": [
+					"O que você está aprendendo agora?",
+					"Qual é a sua especialização?",
+					"O que você está fazendo agora?",
+					"O que você está estudando agora?",
+					"Qual é o seu próximo passo?"
+				]
+			},
+			"answer": {
+				"en": "Since August 2026 I've been doing 42's AI, Data and Algorithms specialization. It focuses on data engineering, relational databases, Python and algorithms. So far I've worked with NumPy, pandas and Matplotlib, and built a data pipeline on PostgreSQL.",
+				"pt": "Desde agosto de 2026 estou fazendo a especialização em IA, Dados e Algoritmos da 42. O foco é engenharia de dados, bancos de dados relacionais, Python e algoritmos. Até agora trabalhei com NumPy, pandas e Matplotlib, e construí um pipeline de dados com PostgreSQL."
+			}
+		},
+		{
+			"id": "machine-learning",
+			"questions": {
+				"en": [
+					"Do you know machine learning?",
+					"Have you done any machine learning?",
+					"Do you know AI?",
+					"Have you trained a model?",
+					"What do you know about deep learning?"
+				],
+				"pt": [
+					"Você sabe machine learning?",
+					"Você já fez algo de machine learning?",
+					"Você sabe IA?",
+					"Você já treinou um modelo?",
+					"O que você sabe de deep learning?"
+				]
+			},
+			"answer": {
+				"en": "Not yet, I'm learning it in my AI, Data and Algorithms specialization. So far I've worked on the data side: NumPy, pandas, Matplotlib and a PostgreSQL data pipeline.",
+				"pt": "Ainda não, estou aprendendo na minha especialização em IA, Dados e Algoritmos. Até agora trabalhei na parte de dados: NumPy, pandas, Matplotlib e um pipeline de dados em PostgreSQL."
+			}
+		},
+		{
+			"id": "projects",
+			"questions": {
+				"en": [
+					"What have you built?",
+					"Show me your projects",
+					"What are your best projects?",
+					"What projects have you done?",
+					"What have you worked on?"
+				],
+				"pt": [
+					"O que você já construiu?",
+					"Me mostra seus projetos",
+					"Quais são seus melhores projetos?",
+					"Quais projetos você fez?",
+					"Em que você já trabalhou?"
+				]
+			},
+			"answer": {
+				"en": "The ones I'm proudest of: Transcendence, a multiplayer chess platform (React, NestJS, PostgreSQL); Webserv, an HTTP server in C++; Inception, a multi-container Docker setup; Minishell, a Unix shell in C; Cub3D, a raycasting 3D engine in C; and a data pipeline in Python and PostgreSQL. Ask me about any of them, or open the Projects page.",
+				"pt": "Os que mais me orgulho: Transcendence, uma plataforma de xadrez multiplayer (React, NestJS, PostgreSQL); Webserv, um servidor HTTP em C++; Inception, uma infraestrutura com vários containers Docker; Minishell, um shell Unix em C; Cub3D, um motor 3D com raycasting em C; e um pipeline de dados em Python e PostgreSQL. Pergunte sobre qualquer um, ou abra a página de Projetos."
+			}
+		},
+		{
+			"id": "transcendence",
+			"questions": {
+				"en": [
+					"Tell me about Transcendence",
+					"What is your chess project?",
+					"What was your last 42 project?",
+					"What is Transcendence?",
+					"Have you built a multiplayer game?"
+				],
+				"pt": [
+					"Me fala do Transcendence",
+					"O que é o seu projeto de xadrez?",
+					"Qual foi seu último projeto na 42?",
+					"O que é o Transcendence?",
+					"Você já fez um jogo multiplayer?"
+				]
+			},
+			"answer": {
+				"en": "Transcendence was my final 42 project, built as a team: a multiplayer chess platform with React, TypeScript, NestJS, PostgreSQL and Docker. I worked on authentication, real-time games over WebSockets, matchmaking and user profiles.",
+				"pt": "O Transcendence foi meu projeto final na 42, feito em equipe: uma plataforma de xadrez multiplayer com React, TypeScript, NestJS, PostgreSQL e Docker. Trabalhei em autenticação, partidas em tempo real com WebSockets, matchmaking e perfis de usuário."
+			}
+		},
+		{
+			"id": "webserv",
+			"questions": {
+				"en": [
+					"Tell me about Webserv",
+					"What is your web server project?",
+					"Have you built an HTTP server?",
+					"What is Webserv?",
+					"Do you know how HTTP works?"
+				],
+				"pt": [
+					"Me fala do Webserv",
+					"O que é o seu projeto de servidor web?",
+					"Você já fez um servidor HTTP?",
+					"O que é o Webserv?",
+					"Você sabe como o HTTP funciona?"
+				]
+			},
+			"answer": {
+				"en": "Webserv is an HTTP/1.1 server we wrote from scratch in C++98, as a team of three. It parses requests, handles routing, runs CGI scripts and serves many clients at once without blocking, using poll(). It's configured through a .conf file, a bit like Nginx.",
+				"pt": "O Webserv é um servidor HTTP/1.1 que escrevemos do zero em C++98, numa equipe de três. Ele interpreta requisições, faz o roteamento, executa scripts CGI e atende vários clientes ao mesmo tempo sem bloquear, usando poll(). A configuração é feita por um arquivo .conf, parecido com o Nginx."
+			}
+		},
+		{
+			"id": "inception",
+			"questions": {
+				"en": [
+					"Tell me about Inception",
+					"Do you know Docker?",
+					"Have you done any DevOps?",
+					"What is Inception?",
+					"Have you used Docker Compose?"
+				],
+				"pt": [
+					"Me fala do Inception",
+					"Você sabe Docker?",
+					"Você já fez algo de DevOps?",
+					"O que é o Inception?",
+					"Você já usou Docker Compose?"
+				]
+			},
+			"answer": {
+				"en": "Yes. In Inception I set up a full web stack with Docker Compose: Nginx, WordPress and MariaDB, each in its own container, built from my own Dockerfiles. I've also used Docker for Transcendence and for my PostgreSQL data pipeline.",
+				"pt": "Sim. No Inception montei uma stack web completa com Docker Compose: Nginx, WordPress e MariaDB, cada um no seu container, a partir dos meus próprios Dockerfiles. Também usei Docker no Transcendence e no meu pipeline de dados com PostgreSQL."
+			}
+		},
+		{
+			"id": "minishell",
+			"questions": {
+				"en": [
+					"Tell me about Minishell",
+					"Have you built a shell?",
+					"What is Minishell?",
+					"Did you write your own bash?",
+					"Do you know how a shell works?"
+				],
+				"pt": [
+					"Me fala do Minishell",
+					"Você já fez um shell?",
+					"O que é o Minishell?",
+					"Você fez seu próprio bash?",
+					"Você sabe como um shell funciona?"
+				]
+			},
+			"answer": {
+				"en": "Minishell is a small version of bash written in C. It runs commands, handles pipes, redirections and environment variables, and deals with signals like Ctrl+C. It's where I really learned how processes and file descriptors work.",
+				"pt": "O Minishell é uma versão pequena do bash escrita em C. Ele executa comandos, trata pipes, redirecionamentos e variáveis de ambiente, e lida com sinais como Ctrl+C. Foi onde eu realmente aprendi como funcionam processos e file descriptors."
+			}
+		},
+		{
+			"id": "cub3d",
+			"questions": {
+				"en": [
+					"Tell me about Cub3D",
+					"Have you made any games?",
+					"What is Cub3D?",
+					"Have you done any raycasting?",
+					"Tell me about your 3D game"
+				],
+				"pt": [
+					"Me fala do Cub3D",
+					"Você já fez algum jogo?",
+					"O que é o Cub3D?",
+					"Você já fez raycasting?",
+					"Me fala do seu jogo 3D"
+				]
+			},
+			"answer": {
+				"en": "Cub3D is a 3D maze game in C, inspired by Wolfenstein 3D. It uses raycasting to draw a 3D view from a 2D map, with the MiniLibX graphics library. I've also made So Long, a small 2D Pac-Man style game, and a Flappy Bird clone in Python.",
+				"pt": "O Cub3D é um jogo de labirinto 3D em C, inspirado no Wolfenstein 3D. Ele usa raycasting para desenhar uma visão 3D a partir de um mapa 2D, com a biblioteca gráfica MiniLibX. Também fiz o So Long, um jogo 2D no estilo Pac-Man, e um clone do Flappy Bird em Python."
+			}
+		},
+		{
+			"id": "philosophers",
+			"questions": {
+				"en": [
+					"Tell me about Philosophers",
+					"What is Philosophers?",
+					"Do you know multithreading?",
+					"Have you worked with threads?",
+					"Do you know how to avoid deadlocks?"
+				],
+				"pt": [
+					"Me fala do Philosophers",
+					"O que é o Philosophers?",
+					"Você sabe multithreading?",
+					"Você já trabalhou com threads?",
+					"Você sabe evitar deadlocks?"
+				]
+			},
+			"answer": {
+				"en": "Philosophers is the classic dining philosophers problem in C. Each philosopher is a thread and each fork is a mutex, and the program has to avoid deadlocks and make sure nobody starves. It's where I learned how threads and mutexes really work.",
+				"pt": "Philosophers é o clássico problema do jantar dos filósofos em C. Cada filósofo é uma thread e cada garfo é um mutex, e o programa precisa evitar deadlocks e garantir que ninguém morra de fome. Foi onde eu aprendi como threads e mutexes funcionam de verdade."
+			}
+		},
+		{
+			"id": "so-long",
+			"questions": {
+				"en": [
+					"Tell me about So Long",
+					"What is So Long?",
+					"Have you made a 2D game?",
+					"Tell me about your 2D game",
+					"What did you build with MiniLibX?"
+				],
+				"pt": [
+					"Me fala do So Long",
+					"O que é o So Long?",
+					"Você já fez um jogo 2D?",
+					"Me fala do seu jogo 2D",
+					"O que você fez com a MiniLibX?"
+				]
+			},
+			"answer": {
+				"en": "So Long is a small 2D game in C, made with MiniLibX: you collect every item on the map and reach the exit. The map is read from a file and validated, including checking that the exit can actually be reached.",
+				"pt": "So Long é um pequeno jogo 2D em C, feito com a MiniLibX: você coleta todos os itens do mapa e chega à saída. O mapa é lido de um arquivo e validado, incluindo verificar se a saída pode mesmo ser alcançada."
+			}
+		},
+		{
+			"id": "flappy-bird",
+			"questions": {
+				"en": [
+					"Tell me about Flappy Bird",
+					"Have you made a game in Python?",
+					"Do you know Pygame?",
+					"What did you build with Pygame?",
+					"Tell me about your Python game"
+				],
+				"pt": [
+					"Me fala do Flappy Bird",
+					"Você já fez um jogo em Python?",
+					"Você sabe Pygame?",
+					"O que você fez com Pygame?",
+					"Me fala do seu jogo em Python"
+				]
+			},
+			"answer": {
+				"en": "A Flappy Bird clone I wrote in Python with Pygame: you flap through the gaps between the pipes and try to beat your best score.",
+				"pt": "Um clone do Flappy Bird que eu escrevi em Python com Pygame: você passa pelos espaços entre os canos e tenta bater seu recorde."
+			}
+		},
+		{
+			"id": "favorite-project",
+			"questions": {
+				"en": [
+					"What's your favorite project?",
+					"Which project are you proudest of?",
+					"What project did you enjoy the most?",
+					"Which project taught you the most?",
+					"What was your first big project?"
+				],
+				"pt": [
+					"Qual é o seu projeto favorito?",
+					"De qual projeto você mais se orgulha?",
+					"Qual projeto você mais gostou de fazer?",
+					"Qual projeto te ensinou mais?",
+					"Qual foi seu primeiro projeto grande?"
+				]
+			},
+			"answer": {
+				"en": "Probably Minishell. It was the first big project I faced, and I built it with a partner, so besides the code itself I had to figure out how to split the work between the two of us.",
+				"pt": "Provavelmente o Minishell. Foi o primeiro projeto grande que eu encarei, e fiz com um parceiro, então além do código eu tive que descobrir como dividir o trabalho entre nós dois."
+			}
+		},
+		{
+			"id": "hardest-problem",
+			"questions": {
+				"en": [
+					"What's the hardest problem you've solved?",
+					"What was your biggest challenge?",
+					"Tell me about a difficult bug",
+					"What was the hardest part of a project?",
+					"What problem are you proud of solving?"
+				],
+				"pt": [
+					"Qual foi o problema mais difícil que você resolveu?",
+					"Qual foi seu maior desafio?",
+					"Me fala de um bug difícil",
+					"Qual foi a parte mais difícil de um projeto?",
+					"De qual problema resolvido você se orgulha?"
+				]
+			},
+			"answer": {
+				"en": "Running CGI in Webserv. The server had to start a child process to run the script, while the main loop kept handling every other connection, and then pick up the script's output once the child finished. Getting that to work without blocking the server was the hardest part.",
+				"pt": "Rodar CGI no Webserv. O servidor precisava criar um processo filho para executar o script, enquanto o loop principal continuava atendendo todas as outras conexões, e depois pegar a resposta do script quando o filho terminasse. Fazer isso funcionar sem travar o servidor foi a parte mais difícil."
+			}
+		},
+		{
+			"id": "data-pipeline",
+			"questions": {
+				"en": [
+					"Tell me about your data pipeline",
+					"Do you know SQL?",
+					"Have you worked with databases?",
+					"Do you know PostgreSQL?",
+					"Have you done any data engineering?"
+				],
+				"pt": [
+					"Me fala do seu pipeline de dados",
+					"Você sabe SQL?",
+					"Você já trabalhou com bancos de dados?",
+					"Você sabe PostgreSQL?",
+					"Você já fez engenharia de dados?"
+				]
+			},
+			"answer": {
+				"en": "Yes. For my specialization I built a Dockerized PostgreSQL and pgAdmin setup, with Python scripts using SQLAlchemy to load about 2 GB of CSV data. I designed typed table schemas and merged monthly tables into one dataset with SQL (UNION ALL).",
+				"pt": "Sim. Na especialização montei um PostgreSQL com pgAdmin em Docker, com scripts Python usando SQLAlchemy para carregar cerca de 2 GB de dados CSV. Defini os esquemas das tabelas com tipos e juntei tabelas mensais num único dataset com SQL (UNION ALL)."
+			}
+		},
+		{
+			"id": "skills",
+			"questions": {
+				"en": [
+					"What's your tech stack?",
+					"What languages do you code in?",
+					"What are your skills?",
+					"What technologies do you use?",
+					"Which programming languages do you know?"
+				],
+				"pt": [
+					"Qual é a sua stack?",
+					"Em quais linguagens você programa?",
+					"Quais são suas habilidades?",
+					"Quais tecnologias você usa?",
+					"Quais linguagens de programação você conhece?"
+				]
+			},
+			"answer": {
+				"en": "Languages: C/C++, Python, TypeScript and SQL. Data: PostgreSQL, pandas, NumPy and SQLAlchemy. Web: React, NestJS and Node.js. Tools: Docker and Git.",
+				"pt": "Linguagens: C/C++, Python, TypeScript e SQL. Dados: PostgreSQL, pandas, NumPy e SQLAlchemy. Web: React, NestJS e Node.js. Ferramentas: Docker e Git."
+			}
+		},
+		{
+			"id": "this-site",
+			"questions": {
+				"en": [
+					"How does this chat work?",
+					"How did you build this site?",
+					"Is this a real AI?",
+					"How do you answer my questions?",
+					"Is this ChatGPT?"
+				],
+				"pt": [
+					"Como funciona esse chat?",
+					"Como você fez esse site?",
+					"Isso é uma IA de verdade?",
+					"Como você responde minhas perguntas?",
+					"Isso é o ChatGPT?"
+				]
+			},
+			"answer": {
+				"en": "Kind of! I wrote the answers myself. A small AI model running in your browser compares the meaning of your question with the questions I prepared and shows the closest answer. So it never makes things up about me. The site is built with React, TypeScript and Tailwind, and the search index is built in Python.",
+				"pt": "Mais ou menos! Eu mesmo escrevi as respostas. Um pequeno modelo de IA rodando no seu navegador compara o significado da sua pergunta com as perguntas que preparei e mostra a resposta mais próxima. Então ele nunca inventa nada sobre mim. O site é feito com React, TypeScript e Tailwind, e o índice de busca é gerado em Python."
+			}
+		},
+		{
+			"id": "open-to-work",
+			"questions": {
+				"en": [
+					"Are you open to work?",
+					"Are you looking for a job?",
+					"What kind of role do you want?",
+					"Are you available?",
+					"Can I hire you?"
+				],
+				"pt": [
+					"Você está aberto a oportunidades?",
+					"Você está procurando emprego?",
+					"Que tipo de vaga você procura?",
+					"Você está disponível?",
+					"Você está buscando trabalho?"
+				]
+			},
+			"answer": {
+				"en": "Yes! I'm looking for my next opportunity as a software developer, especially roles involving backend, data or anything close to AI. If you think I'd fit your team, email me at arthur.hugo962@gmail.com.",
+				"pt": "Sim! Estou procurando minha próxima oportunidade como desenvolvedor de software, principalmente em backend, dados ou algo perto de IA. Se você acha que eu encaixo no seu time, me manda um email em arthur.hugo962@gmail.com."
+			}
+		},
+		{
+			"id": "experience",
+			"questions": {
+				"en": [
+					"Do you have work experience?",
+					"Have you worked before?",
+					"What did you do before coding?",
+					"What's your background?",
+					"Have you had a job in tech?"
+				],
+				"pt": [
+					"Você tem experiência de trabalho?",
+					"Você já trabalhou antes?",
+					"O que você fazia antes de programar?",
+					"Qual é a sua experiência?",
+					"Você já trabalhou na área de tecnologia?"
+				]
+			},
+			"answer": {
+				"en": "My experience in tech comes from 42's projects, most of them built in teams with code reviews. Outside tech, I've worked in Lisbon since 2022 as a food courier and before that as a cook, which taught me to stay organized and reliable under pressure.",
+				"pt": "Minha experiência em tecnologia vem dos projetos da 42, a maioria feita em equipe e com revisão de código. Fora da área, trabalho em Lisboa desde 2022 como entregador e antes disso como cozinheiro, o que me ensinou a ser organizado e confiável sob pressão."
+			}
+		},
+		{
+			"id": "teamwork",
+			"questions": {
+				"en": [
+					"How do you work in a team?",
+					"Do you like working in a team?",
+					"Are you a team player?",
+					"Have you worked in teams?",
+					"How do you handle different opinions?"
+				],
+				"pt": [
+					"Como você trabalha em equipe?",
+					"Você gosta de trabalhar em equipe?",
+					"Você sabe trabalhar em time?",
+					"Você já trabalhou em equipe?",
+					"Como você lida com opiniões diferentes?"
+				]
+			},
+			"answer": {
+				"en": "I like it. Most of my 42 projects were built in teams, and I've always enjoyed hearing a different perspective on a problem. Someone else's way of seeing it often shows me something I missed.",
+				"pt": "Eu gosto. A maioria dos meus projetos na 42 foi feita em equipe, e sempre gostei de ouvir outra perspectiva sobre um problema. O jeito de outra pessoa ver as coisas muitas vezes me mostra algo que eu não tinha visto."
+			}
+		},
+		{
+			"id": "strengths-weaknesses",
+			"questions": {
+				"en": [
+					"What are your strengths and weaknesses?",
+					"What's your biggest strength?",
+					"What's your biggest weakness?",
+					"What are you good at?",
+					"What do you need to improve?"
+				],
+				"pt": [
+					"Quais são seus pontos fortes e fracos?",
+					"Qual é o seu maior ponto forte?",
+					"Qual é o seu maior ponto fraco?",
+					"No que você é bom?",
+					"O que você precisa melhorar?"
+				]
+			},
+			"answer": {
+				"en": "My strength is communication: I like talking through problems and working with people. My weakness is public speaking, I still get nervous presenting in front of an audience.",
+				"pt": "Meu ponto forte é a comunicação: gosto de conversar sobre os problemas e trabalhar com pessoas. Meu ponto fraco é falar em público, ainda fico nervoso quando apresento para uma plateia."
+			}
+		},
+		{
+			"id": "work-model",
+			"questions": {
+				"en": [
+					"Do you work remotely?",
+					"Are you open to remote work?",
+					"Would you relocate?",
+					"Can you move to another country?",
+					"Do you prefer remote, hybrid or on-site?"
+				],
+				"pt": [
+					"Você trabalha remoto?",
+					"Você aceita trabalho remoto?",
+					"Você se mudaria?",
+					"Você pode se mudar para outro país?",
+					"Você prefere remoto, híbrido ou presencial?"
+				]
+			},
+			"answer": {
+				"en": "Any of them works for me: remote, hybrid or on-site. I'd also be happy to move to another country for the right role.",
+				"pt": "Qualquer um funciona para mim: remoto, híbrido ou presencial. Também me mudaria para outro país sem problema pela vaga certa."
+			}
+		},
+		{
+			"id": "why-hire",
+			"questions": {
+				"en": [
+					"Why should I hire you?",
+					"Why should we hire you?",
+					"What makes you different?",
+					"What would you bring to the team?",
+					"Why are you a good fit?"
+				],
+				"pt": [
+					"Por que eu deveria te contratar?",
+					"Por que deveríamos te contratar?",
+					"O que te diferencia?",
+					"O que você traria para a equipe?",
+					"Por que você seria uma boa escolha?"
+				]
+			},
+			"answer": {
+				"en": "I like to go deep on things. When I hit a problem, I fix it, and when I don't know how yet, I know how to learn what I need to fix it. That's what lets me adapt to different kinds of work, and it's how I want to bring real value to a team.",
+				"pt": "Eu gosto de ir a fundo nas coisas. Quando encontro um problema, eu resolvo, e quando ainda não sei como, sei aprender o que preciso para resolver. É isso que me permite me adaptar a diferentes tipos de trabalho, e é assim que quero trazer valor de verdade para uma equipe."
+			}
+		},
+		{
+			"id": "contact",
+			"questions": {
+				"en": [
+					"How can I contact you?",
+					"What's your email?",
+					"Can I see your CV?",
+					"How do I reach you?",
+					"Where can I find you online?"
+				],
+				"pt": [
+					"Como posso falar com você?",
+					"Qual é o seu email?",
+					"Posso ver seu currículo?",
+					"Como eu falo com você?",
+					"Onde eu te encontro online?"
+				]
+			},
+			"answer": {
+				"en": "Email is the best way: arthur.hugo962@gmail.com. You can also find me on GitHub (hbourlot) and LinkedIn (hbourlot), and download my CV with the Share button at the top of the page.",
+				"pt": "O melhor jeito é por email: arthur.hugo962@gmail.com. Você também me encontra no GitHub (hbourlot) e no LinkedIn (hbourlot), e pode baixar meu currículo pelo botão Share no topo da página."
+			}
+		}
+	]
+}
